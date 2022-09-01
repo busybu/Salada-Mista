@@ -1,99 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salada Mista</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-</head>
-
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/scrollreveal.min.js">
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-    <div class="sidebar close">
-        <div class="logo-details">
-            <i class="icon-menu-logo"><a href="/"><img src="/img/mini_logo.png" class="icon"></a></i>
-            <span class="logo-name">Salada Mista</span>
-        </div>
-        <ul class="nav-links">
-            <li>
-                <div class="icon-links">
-                    <a href="#">
-                        <i class=""><img src="/img/icon_1.png" class="icon-sidebar"></i>
-                        <span class="link_name">Proteção</span>
-                    </a>
-                    <i class='bx bx-plus'></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Proteção</a></li>
-                    <li><a href="#">IST's</a></li>
-                    <li><a href="#">Métodos Contraceptivos</a></li>
-                    <li><a href="#">Preservativo</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="icon-links">
-                    <a href="#">
-                        <i class=""><img src="/img/icon_2.png" class="icon-sidebar"></i>
-                        <span class="link_name">Fertilidade</span>
-                    </a>
-                    <i class='bx bx-plus'></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Fertilidade</a></li>
-                    <li><a href="#">Gravidez</a></li>
-                    <li><a href="#">Gestação</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="icon-links">
-                    <a href="#">
-                        <i class=""><img src="/img/icon_3.png" class="icon-sidebar"></i>
-                        <span class="link_name">Ciclo Menstrual</span>
-                    </a>
-                    <i class='bx bx-plus'></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Ciclo Menstrual</a></li>
-                    <li><a href="#">Menstruação</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="icon-links">
-                    <a href="#">
-                        <i class=""><img src="/img/icon_4.png" class="icon-sidebar"></i>
-                        <span class="link_name">Anatomia</span>
-                    </a>
-                    <i class='bx bx-plus'></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a class="link_name" href="#">Anatomia</a></li>
-                    <li><a href="#">Feminino</a></li>
-                    <li><a href="#">Masculino</a></li>
-                </ul>
-            </li>
-            <li>
-                <div class="icon-links">
-                    <a href="#">
-                        <i class=""><img src="/img/icon_5.png" class="icon-sidebar"></i>
-                        <span class="link_name">Dúvidas</span>
-                    </a>
-                    <i class='bx bx-plus'></i>
-                </div>
-            </li>
-            <li>
-                <div class="icon-links">
-                    <a href="#">
-                        <i class=""><img src="/img/icon_6.png" class="icon-sidebar"></i>
-                        <span class="link_name">Sobre Nós</span>
-                    </a>
-                    <i class='bx bx-plus'></i>
-                </div>
-            </li>
-        </ul>
+  <div class="sidebar close">
+    <div class="logo-details">
+        <i class="icon-menu-logo"><a href="/"><img src="/img/mini_logo.png" class="icon"></a></i>
+      <span class="logo_name">Salada Mista</span>
     </div>
-</body>
+    <ul class="nav-links">
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class=""><img src="/img/icon_1.png" class="icon-sidebar"></i>
+            <span class="link_name">Proteção</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Proteção</a></li>
+          <li><a href="#">IST's</a></li>
+          <li><a href="#">Contraceptivos</a></li>
+          <li><a href="#">Preservativo</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class=""><img src="/img/icon_2.png" class="icon-sidebar"></i>
+            <span class="link_name">Fertilidade</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Fertilidade</a></li>
+          <li><a href="#">Gravidez</a></li>
+          <li><a href="#">Gestação</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class=""><img src="/img/icon_3.png" class="icon-sidebar"></i>
+            <span class="link_name">Ciclo Menstrual</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Ciclo Menstrual</a></li>
+          <li><a href="#">Menstruação</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class=""><img src="/img/icon_4.png" class="icon-sidebar"></i>
+            <span class="link_name">Anatomia</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Anatomia</a></li>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+            <i class=""><img src="/img/icon_5.png" class="icon-sidebar"></i>
+          <span class="link_name">Suas Dúvidas</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Blog</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+            <i class=""><img src="/img/icon_6.png" class="icon-sidebar"></i>
+          <span class="link_name">Sobre Nós</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Conheça</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="/img/icon_user.png" alt="profileImg">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Professor(a)</div>
+        <div class="job">Nadia</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul> 
+  </div>
+  <section class="home-section">
+    <div class="home-content1">
+      <i class='bx bx-menu' ></i>
+      <img src="/img/5.png" alt="" class="logo-menu">
+    </div>
+    <main>
+      <section class="home" id="home">
+              <div class="home-content">
+                      <div class="swiper mySwiper">
+                              <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                              <img src="/img/home_banana.png" alt="" class="home-img">
+  
+                                              <div class="home-details">
+                                                      <div class="home-text">
+                                                      </div>
+                                              </div>
+                                      </div>
+  
+                                      <div class="swiper-slide">
+                                              <img src="/img/home_tangerina.jpg" alt="" class="home-img">
+  
+                                              <div class="home-details">
+                                                      <div class="home-text">
+                                                      </div>
+                                              </div>
+                                      </div>
+                              </div>
+  
+                              <div class="swiper-button-next swiper-navBtn"></div>
+                              <div class="swiper-button-prev swiper-navBtn"></div>
+                              <div class="swiper-pagination"></div>
+                      </div>
+              </div>
+      </section>
+    </main>
+  </section>
+ 
+  <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  </script>
+  <!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
 
+<!-- Scroll Reveal -->
+<script src="js/scrollreveal.js"></script>
+
+<!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
 </html>
