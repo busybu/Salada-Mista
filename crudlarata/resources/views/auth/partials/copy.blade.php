@@ -1,0 +1,1 @@
+<p class="mt-5 mb-3 text-muted">Todos os direitos reservados - &copy; {{date('Y')}}</p>
