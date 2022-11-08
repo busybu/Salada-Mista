@@ -63,6 +63,7 @@ main {
 }
 .icon-sidebar{
   height: 25px;
+  object-fit: contain;
 }
 .sidebar{
 position: fixed;

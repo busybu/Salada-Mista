@@ -20,7 +20,11 @@
       require_once("sidebar.php")
     ?>
   </header>
-<body>  
+
+<body">
+  <div class="container-main" style="display: flex;">
+  <x style="margin-right: 75px;height: 100%;"></x>
+  <div class="main"style="display: flex; flex-direction: column;">
   <!--CARROSSEL-->
   <div class="background-img d-flex">
     <img src="img/logo.png" alt="imagem_capa">
@@ -32,7 +36,7 @@
         <div class="carousel-item active">
           <div class="cards-wrapper">
             <div class="card">
-              <img src="/img/carousel_img1.jpg" class="d-block w-100" alt="...">
+              <img src="img/carousel_img1.jpg" class="d-block w-100" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -43,7 +47,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block">
-              <img src="/img/carousel_img2.jpg" class="card-img-top" alt="...">
+              <img src="img/carousel_img2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -54,7 +58,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block">
-              <img src="/img/carousel_img3.jpg" class="card-img-top" alt="...">
+              <img src="img/carousel_img3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -69,7 +73,7 @@
         <div class="carousel-item">
           <div class="cards-wrapper">
             <div class="card">
-              <img src="/img/carousel_img4.jpg" class="card-img-top" alt="...">
+              <img src="img/carousel_img4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -80,7 +84,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block">
-              <img src="/img/home_tangerina.jpg" class="card-img-top" alt="...">
+              <img src="img/home_tangerina.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -91,7 +95,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block">
-              <img src="/img/home_banana.png" class="card-img-top" alt="...">
+              <img src="img/home_banana.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -116,7 +120,9 @@
       </button>
     </div>
   </section>
-  <h1>Nosso Conteúdo</h1>
+  <div class = "title-content-preview">
+    <h1>Nosso Conteúdo</h1>
+  </div>
   <section class="divs-card">
     <div class="div1">
     <div class="card1" style="width: 18rem;">
@@ -170,6 +176,7 @@
   <?php 
     require_once("footer.php")
   ?>
+</div>
+</div>
   </body>
-
 </html>
