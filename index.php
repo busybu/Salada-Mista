@@ -120,25 +120,30 @@
       </button>
     </div>
   </section>
-  <div class = "title-content-preview">
-    <h1>Nosso Conteúdo</h1>
-  </div>
   <section class="divs-card">
+    <div class = "title-content-preview">
+      <div class = "box-geral-esquerda"> 
+        <div class = "box-texto">
+          <h1>Nosso Conteúdo</h1>
+        </div>
+      </div>
+   
+    </div>
     <div class="div1">
     <div class="card1" style="width: 18rem;">
-      <img src="..." class="card-img-top1" alt="...">
+      <a href="#"><img src="img/divscard2.jpg" class="card-img-top1" alt="..."></a>
       <div class="card-body1">
         <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
     <div class="card1" style="width: 18rem;">
-      <img src="..." class="card-img-top1" alt="...">
+      <img src="img/divscard3.jpg" class="card-img-top1" alt="...">
       <div class="card-body1">
         <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
     <div class="card1" style="width: 18rem;">
-      <img src="..." class="card-img-top1" alt="...">
+      <img src="img/divscard4.jpg" class="card-img-top1" alt="...">
       <div class="card-body1">
         <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
@@ -146,19 +151,19 @@
   </div>
   <div class="div2">
     <div class="card1" style="width: 18rem;">
-      <img src="..." class="card-img-top1" alt="...">
+      <img src="img/divscard7.jpg" class="card-img-top1" alt="...">
       <div class="card-body1">
         <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
     <div class="card1" style="width: 18rem;">
-      <img src="..." class="card-img-top1" alt="...">
+      <img src="img/divscard8.jpg" class="card-img-top1" alt="...">
       <div class="card-body1">
         <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
     <div class="card1" style="width: 18rem;">
-      <img src="..." class="card-img-top1" alt="...">
+      <img src="img/divscard10.jpg" class="card-img-top1" alt="...">
       <div class="card-body1">
         <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
