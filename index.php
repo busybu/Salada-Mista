@@ -129,7 +129,7 @@
     <table class="table-footer">
         <tr>
           <td>
-            <div class="card1" style="width: 18rem;">
+            <div class="card1" style="width: auto;">
               <a href="#"><img src="img/divscard2.jpg" class="card-img-top1" alt="..."></a>
               <div class="card-body1">
                 <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -137,7 +137,7 @@
             </div>
           </td>
           <td>
-          <div class="card1" style="width: 18rem;">
+          <div class="card1" style="width: auto;">
             <img src="img/divscard3.jpg" class="card-img-top1" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -145,7 +145,7 @@
           </div>
           </td>
           <td>
-          <div class="card1" style="width: 18rem;">
+          <div class="card1" style="width: auto;">
           <img src="img/divscard4.jpg" class="card-img-top1" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -155,7 +155,7 @@
         </tr>
         <tr>
           <td>
-          <div class="card1" style="width: 18rem;">
+          <div class="card1" style="width: auto;">
             <img src="img/divscard7.jpg" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -163,7 +163,7 @@
           </div>
           </td>
           <td>
-          <div class="card1" style="width: 18rem;">
+          <div class="card1" style="width: auto;">
             <img src="img/divscard8.jpg" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -171,7 +171,7 @@
           </div>
           </td>
           <td>
-          <div class="card1" style="width: 18rem;">
+          <div class="card1" style="width: auto;">
             <img src="img/divscard8.jpg" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
