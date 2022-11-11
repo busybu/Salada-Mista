@@ -13,6 +13,9 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+        .container{
+            height: 50vh;
+        }
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -27,13 +30,6 @@
             }
         }
 
-        .b-example-divider {
-            height: 3rem;
-            background-color: rgba(0, 0, 0, .1);
-            border: solid rgba(0, 0, 0, .15);
-            border-width: 1px 0;
-            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-        }
 
         .b-example-vr {
             flex-shrink: 0;
@@ -80,7 +76,7 @@
         <div class="container">
             <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
                 <div class="col mb-3">
-                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <a href="/" class="d-flex align-items-center mb-3 text-decoration-none">
                         <svg class="bi me-2" width="40" height="32">
                             <img src="img/logo.png">
                         </svg>

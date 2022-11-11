@@ -21,7 +21,7 @@
     ?>
   </header>
 
-<body">
+<body>
   <div class="container-main" style="display: flex;">
   <x style="margin-right: 75px;height: 100%;"></x>
   <div class="main"style="display: flex; flex-direction: column;">
@@ -35,8 +35,8 @@
       <div class="carousel-inner-card">
         <div class="carousel-item active">
           <div class="cards-wrapper">
-            <div class="card">
-              <img src="img/carousel_img1.jpg" class="d-block w-100" alt="...">
+            <div class="card d-none d-md-block" style="height: 100%">
+              <img src="img/carousel_img1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -46,7 +46,7 @@
                 <a href="#" class="btn btn-primary">Entre!</a>
               </div>
             </div>
-            <div class="card d-none d-md-block">
+            <div class="card d-none d-md-block" style="height: 100%">
               <img src="img/carousel_img2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
@@ -57,7 +57,7 @@
                 <a href="#" class="btn btn-primary">Entre!</a>
               </div>
             </div>
-            <div class="card d-none d-md-block">
+            <div class="card d-none d-md-block" style="height: 100%" style="height: 100%">
               <img src="img/carousel_img3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
@@ -72,7 +72,7 @@
         </div>
         <div class="carousel-item">
           <div class="cards-wrapper">
-            <div class="card">
+          <div class="card d-none d-md-block" style="height: 100%">
               <img src="img/carousel_img4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
@@ -83,7 +83,7 @@
                 <a href="#" class="btn btn-primary">Entre!</a>
               </div>
             </div>
-            <div class="card d-none d-md-block">
+            <div class="card d-none d-md-block" style="height: 100%">
               <img src="img/home_tangerina.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
@@ -94,7 +94,7 @@
                 <a href="#" class="btn btn-primary">Entre!</a>
               </div>
             </div>
-            <div class="card d-none d-md-block">
+            <div class="card d-none d-md-block" style="height: 100%">
               <img src="img/home_banana.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
@@ -121,67 +121,93 @@
     </div>
   </section>
   <section class="divs-card">
+    <center>
     <div class = "title-content-preview">
-      <div class = "box-geral-esquerda"> 
-        <div class = "box-texto">
-          <h1>Nosso Conteúdo</h1>
-        </div>
-      </div>
-   
+      <h1>Nosso Conteúdo</h1>
     </div>
-    <div class="div1">
-    <div class="card1" style="width: 18rem;">
-      <a href="#"><img src="img/divscard2.jpg" class="card-img-top1" alt="..."></a>
-      <div class="card-body1">
-        <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card1" style="width: 18rem;">
-      <img src="img/divscard3.jpg" class="card-img-top1" alt="...">
-      <div class="card-body1">
-        <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card1" style="width: 18rem;">
-      <img src="img/divscard4.jpg" class="card-img-top1" alt="...">
-      <div class="card-body1">
-        <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="div2">
-    <div class="card1" style="width: 18rem;">
-      <img src="img/divscard7.jpg" class="card-img-top1" alt="...">
-      <div class="card-body1">
-        <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card1" style="width: 18rem;">
-      <img src="img/divscard8.jpg" class="card-img-top1" alt="...">
-      <div class="card-body1">
-        <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card1" style="width: 18rem;">
-      <img src="img/divscard10.jpg" class="card-img-top1" alt="...">
-      <div class="card-body1">
-        <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
+    <hr/>
+    <table class="table-footer">
+        <tr>
+          <td>
+            <div class="card1" style="width: 18rem;">
+              <a href="#"><img src="img/divscard2.jpg" class="card-img-top1" alt="..."></a>
+              <div class="card-body1">
+                <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </td>
+          <td>
+          <div class="card1" style="width: 18rem;">
+            <img src="img/divscard3.jpg" class="card-img-top1" alt="...">
+            <div class="card-body1">
+              <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          </td>
+          <td>
+          <div class="card1" style="width: 18rem;">
+          <img src="img/divscard4.jpg" class="card-img-top1" alt="...">
+            <div class="card-body1">
+              <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <div class="card1" style="width: 18rem;">
+            <img src="img/divscard7.jpg" alt="...">
+            <div class="card-body1">
+              <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          </td>
+          <td>
+          <div class="card1" style="width: 18rem;">
+            <img src="img/divscard8.jpg" alt="...">
+            <div class="card-body1">
+              <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          </td>
+          <td>
+          <div class="card1" style="width: 18rem;">
+            <img src="img/divscard8.jpg" alt="...">
+            <div class="card-body1">
+              <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          </td>
+          <td>
+          </td>
+        </tr>
+    </table>
   </section>
   <!--FOOTER-->
-  
-  <footer>
-
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
+  <section class="footer" style="background-color: #ecf0f1">
   <?php 
     require_once("footer.php")
   ?>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  
 </div>
 </div>
   </body>
 </html>
+
+
+
+
+<!--
+  
+    
+    
+  background-color: rgba(0,0,0,.1)!important
+    
+    
+    
+-->
