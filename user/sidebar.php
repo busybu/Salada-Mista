@@ -130,14 +130,14 @@
   
     <div class="sidebar close">
         <div class="logo-details">
-          <i class="icon-menu-logo"><a href="/"><img src="img/mini_logo.png" class="icon"></a></i>
+          <i class="icon-menu-logo"><a href="/"><img src="../img/mini_logo.png" class="icon"></a></i>
           <span class="logo_name">Salada Mista</span>
         </div>
         <ul class="nav-links">
           <li>
             <div class="iocn-link">
               <a href="#">
-                <i class=""><img src="img/icon_1.png" class="icon-sidebar"></i>
+                <i class=""><img src="../img/icon_1.png" class="icon-sidebar"></i>
                 <span class="link_name">Proteção</span>
               </a>
               <i class='bx bxs-chevron-down arrow'></i>
@@ -152,7 +152,7 @@
           <li>
             <div class="iocn-link">
               <a href="#">
-                <i class=""><img src="img/icon_2.png" class="icon-sidebar"></i>
+                <i class=""><img src="../img/icon_2.png" class="icon-sidebar"></i>
                 <span class="link_name">Fertilidade</span>
               </a>
               <i class='bx bxs-chevron-down arrow'></i>
@@ -166,7 +166,7 @@
           <li>
             <div class="iocn-link">
               <a href="#">
-                <i class=""><img src="img/icon_3.png" class="icon-sidebar"></i>
+                <i class=""><img src="../img/icon_3.png" class="icon-sidebar"></i>
                 <span class="link_name">Ciclo Menstrual</span>
               </a>
               <i class='bx bxs-chevron-down arrow'></i>
@@ -179,7 +179,7 @@
           <li>
             <div class="iocn-link">
               <a href="#">
-                <i class=""><img src="img/icon_4.png" class="icon-sidebar"></i>
+                <i class=""><img src="../img/icon_4.png" class="icon-sidebar"></i>
                 <span class="link_name">Anatomia</span>
               </a>
               <i class='bx bxs-chevron-down arrow'></i>
@@ -192,7 +192,7 @@
           </li>
           <li>
             <a href="#">
-              <i class=""><img src="img/icon_5.png" class="icon-sidebar"></i>
+              <i class=""><img src="../img/icon_5.png" class="icon-sidebar"></i>
               <span class="link_name">Suas Dúvidas</span>
             </a>
             <ul class="sub-menu blank">
@@ -201,7 +201,7 @@
           </li>
           <li>
             <a href="#">
-              <i class=""><img src="img/icon_6.png" class="icon-sidebar"></i>
+              <i class=""><img src="../img/icon_6.png" class="icon-sidebar"></i>
               <span class="link_name">Sobre Nós</span>
             </a>
             <ul class="sub-menu blank">
@@ -211,7 +211,7 @@
           <li>
             <div class="profile-details">
               <div class="profile-content">
-                <img src="img/icon_user.png" alt="profileImg">
+                <img src="../img/icon_user.png" alt="profileImg">
               </div>
               <div class="name-job">
                 <div class="profile_name">Professor(a)</div>

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/scrollreveal.min.js">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@
   <div class="main"style="display: flex; flex-direction: column;">
   <!--CARROSSEL-->
   <div class="background-img d-flex">
-    <img src="img/logo.png" alt="imagem_capa">
+    <img src="../img/logo.png" alt="imagem_capa">
   </div>
   <!--CARD SLIDES-->
   <section class="card-slide">
@@ -36,7 +36,7 @@
         <div class="carousel-item active">
           <div class="cards-wrapper">
             <div class="card d-none d-md-block" style="height: 100%">
-              <img src="img/carousel_img1.jpg" class="card-img-top" alt="...">
+              <img src="../img/carousel_img1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -47,7 +47,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block" style="height: 100%">
-              <img src="img/carousel_img2.jpg" class="card-img-top" alt="...">
+              <img src="../img/carousel_img2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block" style="height: 100%" style="height: 100%">
-              <img src="img/carousel_img3.jpg" class="card-img-top" alt="...">
+              <img src="../img/carousel_img3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -73,7 +73,7 @@
         <div class="carousel-item">
           <div class="cards-wrapper">
           <div class="card d-none d-md-block" style="height: 100%">
-              <img src="img/carousel_img4.jpg" class="card-img-top" alt="...">
+              <img src="../img/carousel_img4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -84,7 +84,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block" style="height: 100%">
-              <img src="img/home_tangerina.jpg" class="card-img-top" alt="...">
+              <img src="../img/home_tangerina.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -95,7 +95,7 @@
               </div>
             </div>
             <div class="card d-none d-md-block" style="height: 100%">
-              <img src="img/home_banana.png" class="card-img-top" alt="...">
+              <img src="../img/home_banana.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -130,7 +130,7 @@
         <tr>
           <td>
             <div class="card1" style="width: auto;">
-              <a href="#"><img src="img/divscard2.jpg" class="card-img-top1" alt="..."></a>
+              <a href="#"><img src="../img/divscard2.jpg" class="card-img-top1" alt="..."></a>
               <div class="card-body1">
                 <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -138,7 +138,7 @@
           </td>
           <td>
           <div class="card1" style="width: auto;">
-            <img src="img/divscard3.jpg" class="card-img-top1" alt="...">
+            <img src="../img/divscard3.jpg" class="card-img-top1" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -146,7 +146,7 @@
           </td>
           <td>
           <div class="card1" style="width: auto;">
-          <img src="img/divscard4.jpg" class="card-img-top1" alt="...">
+          <img src="../img/divscard4.jpg" class="card-img-top1" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -156,7 +156,7 @@
         <tr>
           <td>
           <div class="card1" style="width: auto;">
-            <img src="img/divscard7.jpg" alt="...">
+            <img src="../img/divscard7.jpg" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -164,7 +164,7 @@
           </td>
           <td>
           <div class="card1" style="width: auto;">
-            <img src="img/divscard8.jpg" alt="...">
+            <img src="../img/divscard8.jpg" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -172,7 +172,7 @@
           </td>
           <td>
           <div class="card1" style="width: auto;">
-            <img src="img/divscard8.jpg" alt="...">
+            <img src="../img/divscard8.jpg" alt="...">
             <div class="card-body1">
               <p class="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
