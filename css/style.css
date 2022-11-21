@@ -37,7 +37,15 @@
 .carousel-img{
   height: 30rem;
 }
-
+.background-pages{
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+}
+.background-pages img{
+  justify-content: center;
+  object-fit: cover;
+}
 .background-img{
   height: 40vh;
   width: 100vw;
@@ -46,17 +54,29 @@
 }
 
 .background-img img{
-  width: 100vw;
-  height: 35vh;
   align-items: center;
   justify-content: center;
   object-fit: contain;
 }
 
+.conteudo-page .title-conteudo-page h1{
+  font-size: 100px;
+}
 
-
-
-
+.text-conteudo-page p{
+  font-size: 20px;
+  line-height: 2.1rem;
+  letter-spacing: 0.5px;
+  word-spacing: 2.5px;
+  text-transform: capitalize;
+}
+.conteudo-page .text-conteudo-page{
+  width: 150vh;
+  padding-top: 1.5rem;
+}
+.conteudo-page img{
+  height: 35rem;
+}
 /*______________________________________________*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
