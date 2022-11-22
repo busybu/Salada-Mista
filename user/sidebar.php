@@ -130,20 +130,20 @@
   
     <div class="sidebar close">
         <div class="logo-details">
-          <i class="icon-menu-logo"><a href="/"><img src="../img/mini_logo.png" class="icon"></a></i>
+          <i class="icon-menu-logo"><a href="../user/index.php"><img src="../img/mini_logo.png" class="icon"></a></i>
           <span class="logo_name">Salada Mista</span>
         </div>
         <ul class="nav-links">
           <li>
             <div class="iocn-link">
-              <a href="#">
+              <a href="../user/protecao.php">
                 <i class=""><img src="../img/icon_1.png" class="icon-sidebar"></i>
                 <span class="link_name">Proteção</span>
               </a>
               <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-              <li><a class="link_name" href="#">Proteção</a></li>
+              <li><a class="link_name" href="../user/protecao.php">Proteção</a></li>
               <li><a href="#">IST's</a></li>
               <li><a href="#">Contraceptivos</a></li>
               <li><a href="#">Preservativo</a></li>

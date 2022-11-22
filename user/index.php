@@ -26,8 +26,13 @@
   <x style="margin-right: 75px;height: 100%;"></x>
   <div class="main"style="display: flex; flex-direction: column;">
   <!--CARROSSEL-->
-  <div class="background-img d-flex">
-    <img src="../img/logo.png" alt="imagem_capa">
+
+  <div class="background-img">
+    <img src = "../img/background.png" alt="background">
+    <div class = "logo-background">
+    <img src = "../img/logo.png" alt="background-logo">
+
+    </div>
   </div>
   <!--CARD SLIDES-->
   <section class="card-slide">

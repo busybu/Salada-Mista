@@ -46,21 +46,21 @@
   justify-content: center;
   object-fit: cover;
 }
-.background-img{
-  height: 40vh;
-  width: 100vw;
-  background: url(/img/background.png);
-  display: flex;
-}
 
-.background-img img{
-  align-items: center;
-  justify-content: center;
+.container-main .main .background-img img{
+  width: 100%;
   object-fit: contain;
+  z-index: -1;
 }
-
+.container-main .main .background-img .logo-background img{
+  width: 50vh;
+  object-fit: contain;
+  z-index: 1;
+  position: absolute;
+}
 .conteudo-page .title-conteudo-page h1{
   font-size: 100px;
+  padding-left: 0.5rem;
 }
 
 .text-conteudo-page p{
@@ -73,6 +73,7 @@
 .conteudo-page .text-conteudo-page{
   width: 150vh;
   padding-top: 1.5rem;
+  padding-left: 2rem;
 }
 .conteudo-page img{
   height: 35rem;
@@ -489,6 +490,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+
 }
 .title-content-preview h1{
   font-family: 'Poppins', sans-serif;
