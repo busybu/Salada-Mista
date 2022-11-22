@@ -1,6 +1,12 @@
 <?php
-include 'db/db.php';
 
+session_start();
+$conexao = "localhost";
+$username = "root";
+$password = "";
+$banco = "saladamista";
+
+$mysqli = new mysqli($conexao, $username, $password, $banco);
 
 
 if (isset($_POST["Login"]))
@@ -15,12 +21,19 @@ if (isset($_POST["Login"]))
             $email = $row["email"];
             $senha = $row["senha"];
             if ($email == $_POST['email'] && $senha == $_POST['senha'])
+            {
                 $confirm = true;
+                break;
+            }
         }
     }
     
     if ($confirm)
     {
+        $_SESSION['id_user'] = $id;
+        $_SESSION['user'] = $email;
+        $_SESSION['pass'] = $senha;
+        
         echo "<meta http-equiv='refresh' content='0.00001; URL=adm/home.php'/>";
     }
     else
