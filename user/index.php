@@ -15,7 +15,6 @@
 </head>
 
 <header>
-   <!--SIDEBAR AQUI // giu, só precisa importar o sidebar e o footer usando os comandinhos lá do php-->
     <?php
       require_once("sidebar.php")
     ?>

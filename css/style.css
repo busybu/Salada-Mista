@@ -78,6 +78,11 @@
 .conteudo-page img{
   height: 35rem;
 }
+.container-main .main .fundo404error img{
+  height: 70rem;
+  width: 120rem;
+  object-fit: cover;
+}
 /*______________________________________________*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
