@@ -127,7 +127,7 @@
 </svg>
 
 <main class="d-flex flex-nowrap">
-  
+    <form action="home.php" method="GET">
     <div class="sidebar close">
         <div class="logo-details">
           <i class="icon-menu-logo"><a href="../user/index.php"><img src="../img/mini_logo.png" class="icon"></a></i>
@@ -143,10 +143,10 @@
               <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-              <li><a class="link_name" href="../user/protecao.php">Proteção</a></li>
-              <li><a href="#">IST's</a></li>
-              <li><a href="#">Contraceptivos</a></li>
-              <li><a href="#">Preservativo</a></li>
+              <li><input type="submit" class="link_name" href="../user/home.php" name="Title" value="Proteção">Proteção</input></li>
+              <li><input type="submit" name="Title" value="IST">IST's</input></li>
+              <li><input type="submit" name="Title" value="Contraceptivos">Contraceptivos</input></li>
+              <li><input type="submit" name="Title" value="Preservativo">Preservativo</input></li>
             </ul>
           </li>
           <li>
@@ -158,9 +158,9 @@
               <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-              <li><a class="link_name" href="#">Fertilidade</a></li>
-              <li><a href="#">Gravidez</a></li>
-              <li><a href="#">Gestação</a></li>
+            <li><input type="submit" class="link_name" name="Title" value="Fertilidade">Fertilidade</input></li>
+              <li><input type="submit" name="Title" value="Gravidez">Gravidez</input></li>
+              <li><input type="submit" name="Title" value="Gestação">Gestação</input></li>
             </ul>
           </li>
           <li>
@@ -172,8 +172,8 @@
               <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-              <li><a class="link_name" href="#">Ciclo Menstrual</a></li>
-              <li><a href="#">Menstruação</a></li>
+              <li><input type="submit" name="Title" value="Ciclo Menstrual" class="link_name">Ciclo Menstrual</a></li>
+              <li><input type="submit" name="Title" value="Menstruação">Menstruação</a></li>
             </ul>
           </li>
           <li>
@@ -185,9 +185,9 @@
               <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-              <li><a class="link_name" href="#">Anatomia</a></li>
-              <li><a href="#">Masculino</a></li>
-              <li><a href="#">Feminino</a></li>
+              <li><input type="submit" name="Title" value="Anatomia" class="link_name">Anatomia</a></li>
+              <li><input type="submit" name="Title" value="Masculino">Masculino</a></li>
+              <li><input type="submit" name="Title" value="Feminino">Feminino</a></li>
             </ul>
           </li>
           <li>
@@ -221,7 +221,7 @@
             </div>
           </li>
         </ul>
-
+  </form>
   <div class="b-example-divider b-example-vr"></div>
 </main>
 

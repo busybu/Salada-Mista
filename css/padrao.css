@@ -1,0 +1,9 @@
+.background-pages{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+  }
+  .background-pages img{
+    justify-content: center;
+    object-fit: cover;
+  }
