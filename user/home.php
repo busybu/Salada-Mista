@@ -13,6 +13,8 @@
   {
     $text1 = $row['text'];
     $text2 = $row['text1'];
+    $img = $row['img'];
+    $img_background = $row['imgbackground'];
   } 
   
 ?>
@@ -47,7 +49,7 @@
   <x style="margin-right: 75px;height: 100%;"></x>
   <div class="main"style="display: flex; flex-direction: column;">
   <div class="background-pages">
-    <img src="../img/background_protecao.png" alt="imagem_capa">
+    <img src="<?php echo $img_background?>" alt="imagem_capa">
   </div>
   <div class="conteudo-page">
       <div class = "title-conteudo-page">
@@ -70,7 +72,7 @@
         </p>
       </div>
       <div class='div100'>
-        <img src = "../img/img_protecao.png">
+        <img src = "<?php echo $img?>">
       </div>
     </div>
       
