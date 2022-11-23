@@ -9,19 +9,17 @@ function returnConnection(){
 }
 
 function verifyLogin(){
-    session_start();
     if (session())
         return false;
-
-    $conexao = "localhost";
-    $username = "root";
-    $password = "123";
-    $banco = "saladamista";
     
-    $mysqli = new mysqli($conexao, $username, $password, $banco);
-    $result  = $mysqli -> query("SELECT * FROM usuarios WHERE email = $_SESSION['loginUser']");
+    $mysqli = returnConnection();
+    $email = $_SESSION['loginUser'];
+    $pass = $_SESSION['passUser'];
+    $result  = $mysqli -> query("SELECT * FROM usuarios WHERE email = '$email' and senha = '$pass'");
     if ($result->num_rows > 0)
+    {
         return true;
+    }
     return false;
 }
 
@@ -37,5 +35,10 @@ function session(){
 function Error404()
 {
     echo "<meta http-equiv='refresh' content='0.00001; URL=../user/404error.php'/>";
+}
+
+function redirectLogin()
+{
+    echo "<meta http-equiv='refresh' content='0.00001; URL=../user/login.php'/>";
 }
 ?>

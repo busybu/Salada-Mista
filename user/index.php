@@ -12,6 +12,7 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php
+    session_start();
     require_once("../adm/functions.php");
     if (verifyLogin())
     {
