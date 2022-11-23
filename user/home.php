@@ -1,21 +1,23 @@
 <?php
-  session_start();
-  $conexao = "localhost";
-  $username = "root";
-  $password = "123";
-  $banco = "saladamista";
-  
-  $mysqli = new mysqli($conexao, $username, $password, $banco);
+  require_once('../adm/functions.php');
 
-  $titulo = $_GET['Title'];
-  $result = $mysqli -> query("SELECT * FROM posts WHERE posts.title = '$titulo'");
-  if ($row = $result->fetch_assoc())
-  {
-    $text1 = $row['text'];
-    $text2 = $row['text1'];
-    $img = $row['img'];
-    $img_background = $row['imgbackground'];
-  } 
+  $mysqli = returnConnection();
+  if (!returnConnection())
+    Error404();
+  else{
+    
+    $titulo = $_GET['Title'];
+
+    $result = $mysqli -> query("SELECT * FROM posts WHERE posts.title = '$titulo'");
+    if ($result->num_rows == 0)
+      Error404();
+    if ($row = $result->fetch_assoc()) {
+      $text1 = $row['text'];
+      $text2 = $row['text1'];
+      $img = $row['img'];
+      $img_background = $row['imgbackground'];
+    } 
+  }
   
 ?>
 
