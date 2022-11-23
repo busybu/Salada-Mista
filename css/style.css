@@ -47,16 +47,17 @@
   width: 100%;
 }
 
-.container-main .main .background-img img{
+.container-main .main .background-img {
   width: 100%;
-  object-fit: contain;
-  z-index: -1;
+  height: 40rem;
+  background-image: url("../img/background.png");
+  display: flex;
+  justify-content: center;
 }
-.container-main .main .background-img .logo-background img{
-  width: 50vh;
+.container-main .main .background-img .logo-img{
   object-fit: contain;
-  z-index: 1;
-  position: absolute;
+  height: 20rem;
+  width: 30rem;
 }
 .conteudo-page .title-conteudo-page h1{
   font-size: 100px;
@@ -80,10 +81,11 @@
   width: 30rem;
   
 }
-.container-main .main .fundo404error img{
-  height: 70rem;
-  width: 120rem;
-  object-fit: cover;
+
+.container-main .main .error img{
+  height: 58rem;
+  margin: auto;
+  margin-left: 90px;
 }
 .div100{
   width: 100%;

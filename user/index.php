@@ -27,15 +27,11 @@
   <!--CARROSSEL-->
 
   <div class="background-img">
-    <img src = "../img/background.png" alt="background">
-    <div class = "logo-background">
-    <img src = "../img/logo.png" alt="background-logo">
-
-    </div>
+      <img src = "../img/logo.png" alt="background-logo" class="logo-img">
   </div>
   <!--CARD SLIDES-->
-  <section class="card-slide">
-    <div id="carouselExampleControlsSmallScreen" class="carousel slide" data-bs-ride="carousel">
+  <section class="card-slide" style= "background-color: rgb(185, 248, 227)" >
+    <div id="carouselExampleControlsSmallScreen" class="carousel slide" data-bs-ride="carousel" style="margin-left: 8rem;" >
       <div class="carousel-inner-card">
         <div class="carousel-item active">
           <div class="cards-wrapper">
