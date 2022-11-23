@@ -30,9 +30,8 @@ if (isset($_POST["Login"]))
     
     if ($confirm)
     {
-        $_SESSION['id_user'] = $id;
-        $_SESSION['user'] = $email;
-        $_SESSION['pass'] = $senha;
+        $_SESSION['loginUser'] = $email;
+        $_SESSION['passUser'] = $senha;
         
         echo "<meta http-equiv='refresh' content='0.00001; URL=adm/home.php'/>";
     }
