@@ -20,14 +20,13 @@
     ?>
   </header>
 
-<body>
+<body style = "background-color: pink;">
 <div class="container-main" style="display: flex;">
   <x style="margin-right: 75px;height: 100%;"></x>
   <div class="main"style="display: flex; flex-direction: column;">
-  <div class="fundo404error">
-    <img src = "../img/4040fruit.jpg" >
-    
-  </div>
-
+  <div class = "error">
+    <a href = "../user/index.php"><img src= "../img/saladaError.png"></a>
 </div>
 </div>
+</div>
+</body>
