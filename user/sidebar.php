@@ -196,7 +196,7 @@
               <span class="link_name">Suas Dúvidas</span>
             </a>
             <ul class="sub-menu blank">
-              <li><a class="link_name" href="#">Blog</a></li>
+              <li><a class="link_name" href="../user/perguntas.php">Blog</a></li>
             </ul>
           </li>
           <li>
@@ -211,7 +211,7 @@
           <li>
             <div class="profile-details">
               <div class="profile-content">
-                <img src="../img/icon_user.png" alt="profileImg">
+              <a class= "link_name" href = "../user/login.php"><img src="../img/icon_user.png" alt="profileImg"></a>
               </div>
               <div class="name-job">
                 <div class="profile_name">Professor(a)</div>

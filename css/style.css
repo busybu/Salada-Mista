@@ -80,12 +80,15 @@
   width: 30rem;
   
 }
-
+.container-main .main .card{
+  padding: 2rem;
+}
 .container-main .main .error img{
   height: 58rem;
   margin: auto;
   margin-left: 90px;
 }
+
 .div100{
   width: 100%;
   display:flex;
