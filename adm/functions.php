@@ -2,7 +2,7 @@
 function returnConnection(){
     $conexao = "localhost";
     $username = "root";
-    $password = "";
+    $password = "123";
     $banco = "saladamista";
     
     return new mysqli($conexao, $username, $password, $banco);
