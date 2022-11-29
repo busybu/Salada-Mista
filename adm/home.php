@@ -31,10 +31,10 @@
     <section class="options-container">
         <div class="options-box">
             <div class="options">
-                <button><a href= "../adm/gerenciarpostagens.php">Postagens</a></button>
-                <button><a href= "../adm/perguntasadm.php">Perguntas</a></button>
-                <button>Usuários</button>
-                <button>Sair</button>
+                <a href= "../adm/gerenciarpostagens.php">Postagens</a>
+                <a href= "../adm/perguntasadm.php">Perguntas</a>
+                <a href= "#">Usuários</a>
+                <a href= "#">Sair</a>
             </div>
             <div class="img-box">
                 

@@ -59,7 +59,9 @@ header{
     gap: 50px;
 }
 
-.options button{
+.options a{
+    text-decoration: none;
+    text-align: center;
     background-color: #520411;
     color: #fff;
     padding: 20px;
@@ -72,7 +74,7 @@ header{
 }
 
 
-.options button:hover{
+.options a:hover{
     background-color: #7a3d3d;
 }
 
