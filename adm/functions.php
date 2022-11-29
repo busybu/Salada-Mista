@@ -2,14 +2,14 @@
 function returnConnection(){
     $conexao = "localhost";
     $username = "root";
-    $password = "";
+    $password = "123";
     $banco = "saladamista";
     
     return new mysqli($conexao, $username, $password, $banco);
 }
 
 function verifyLogin(){
-    if (session())
+    if (!session())
         return false;
     
     $mysqli = returnConnection();
@@ -18,6 +18,7 @@ function verifyLogin(){
     $result  = $mysqli -> query("SELECT * FROM usuarios WHERE email = '$email' and senha = '$pass'");
     if ($result->num_rows > 0)
     {
+        $_SESSION['adm'] = $result->fetch_assoc()['adm'];
         return true;
     }
     return false;
@@ -25,10 +26,11 @@ function verifyLogin(){
 
 function session(){
     if (isset($_SESSION['loginUser']) && isset($_SESSION['passUser']) && $_SESSION['loginUser'] != "" && $_SESSION['passUser'] != "")
-        return false;
+        return true;
     $_SESSION['loginUser'] = "";
     $_SESSION['passUser'] = "";
-    return true;
+    $_SESSION['adm'] = 0;
+    return false;
         
 }
 
