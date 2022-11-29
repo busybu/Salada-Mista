@@ -33,8 +33,8 @@
             <div class="options">
                 <button><a href= "../adm/gerenciarpostagens.php">Postagens</a></button>
                 <button><a href= "../adm/perguntasadm.php">Perguntas</a></button>
-                <button>Usuários</button>
-                <button>Sair</button>
+                <button><a href= "../adm/gerenciarusuarios.php">Usuários</a></button>
+                <button><a href= "../user/index.php">Sair</a></button>
             </div>
             <div class="img-box">
                 
