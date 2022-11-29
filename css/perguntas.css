@@ -1,3 +1,14 @@
-.container-main .main .conteudo-perguntas .card{
+
+.container-main .main .background-img{
+    height: 10rem;
+}
+.container-main .main .conteudo-perguntas {
     padding: 2rem;
+}
+.container-main .main .card-container {
+    margin: auto;
+    padding: 3rem;
+}
+.container-main .main .card-container .card-divisor {
+    padding: 1rem;
 }

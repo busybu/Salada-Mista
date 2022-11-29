@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/scrollreveal.min.js">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/perguntas.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,8 +25,12 @@
 <div class="container-main" style="display: flex; flex-direction: column; margin-left:75px;">
   <div class="main"style="display: flex; flex-direction: column;">
   <div class="background-img">
-      <img src = "#" alt="background-logo" class="logo-img">
+    <div class = "text-background" style = "margin:auto;">
+      <h1>Blog De Perguntas</h1>
+    </div>
   </div>
+  <div class = "card-container">
+    <div class ="card-divisor">
   <div class="card">
   <div class="card-header">
     Quote
@@ -37,6 +42,8 @@
     </blockquote>
   </div>
 </div>
+</div>
+<div class ="card-divisor">
 <div class="card">
   <div class="card-header">
     Quote
@@ -48,6 +55,9 @@
     </blockquote>
   </div>
 </div>
+</div>
+<div class ="card-divisor">
+
 <div class="card">
   <div class="card-header">
     Quote
@@ -59,6 +69,8 @@
     </blockquote>
   </div>
 </div>
+  </div>
+  </div>
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

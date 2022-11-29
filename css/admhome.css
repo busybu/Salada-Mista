@@ -9,7 +9,7 @@
 header{
     width: 100vw;
     height: 60px;
-    background: #50009a;
+    background: #510d63;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,8 +29,8 @@ header{
 }
 
 .options-container{
-    background: rgb(199,0,0);
-    background: linear-gradient(159deg, rgba(217,0,0,1) 0%, rgba(80,0,154,1) 80%);
+    background: rgb(252, 172, 172);
+    background: pink;
     width: 100vw;
     height: calc(100vh - 60px);
     display: flex;
@@ -41,9 +41,9 @@ header{
 .options-box{
     width: 1000px;
     height: 500px;
-    background: #111;
+    background: #36072a99;
     border-radius: 30px;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 8px #68075099;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@ header{
 }
 
 .options button{
-    background-color: #d90000;
+    background-color: #520411;
     color: #fff;
     padding: 20px;
     border-radius: 20px;
@@ -72,7 +72,7 @@ header{
 }
 
 .options button:hover{
-    background-color: #ff1919;
+    background-color: #7a3d3d;
 }
 
 .img-box{
