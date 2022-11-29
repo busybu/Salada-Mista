@@ -29,7 +29,15 @@
       <h1>Blog De Perguntas</h1>
     </div>
   </div>
+  
   <div class = "card-container">
+  <form>
+  <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Insira aqui sua pergunta</label>
+  </div>
+  <button class="btn btn-primary" type="submit">Button</button>
+</form>
     <div class ="card-divisor">
   <div class="card">
   <div class="card-header">
@@ -56,8 +64,8 @@
   </div>
 </div>
 </div>
-<div class ="card-divisor">
 
+<div class ="card-divisor">
 <div class="card">
   <div class="card-header">
     Quote
@@ -70,7 +78,8 @@
   </div>
 </div>
   </div>
-  </div>
+
+</div>
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
