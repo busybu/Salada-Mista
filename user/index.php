@@ -34,7 +34,7 @@
       <img src = "../img/logo.png" alt="background-logo" class="logo-img">
   </div>
   <!--CARD SLIDES-->
-  <section class="card-slide" style= "background-color: rgb(185, 248, 227)" >
+  <section class="card-slide" style= "background-color: #EBEBEB;" >
     <div id="carouselExampleControlsSmallScreen" class="carousel slide" data-bs-ride="carousel" style="margin-left: 8rem;" >
       <div class="carousel-inner-card">
         <div class="carousel-item active">
@@ -42,12 +42,12 @@
             <div class="card d-none d-md-block" style="height: 100%">
               <img src="../img/carousel_img1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
+                <h5 class="card-title">Proteção</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua. Felis eget velit aliquet sagittis id consectetur
                   purus. Vulputate ut pharetra sit amet aliquam. Sed odio morbi quis commodo odio aenean sed
                   adipiscing.</p>
-                <a href="#" class="btn btn-primary">Entre!</a>
+                <a href="../user/home.php/Protecao" class="btn btn-primary">Entre!</a>
               </div>
             </div>
             <div class="card d-none d-md-block" style="height: 100%">
