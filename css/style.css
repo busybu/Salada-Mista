@@ -204,6 +204,15 @@
   align-items: center;
   text-decoration: none;
 }
+.sidebar .nav-links .sub-menu li input{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.sidebar.close .nav-links li .sub-menu li {
+  text-decoration: none;
+}
+
 .sidebar .nav-links li a .link_name{
   font-size: 18px;
   font-weight: 400;

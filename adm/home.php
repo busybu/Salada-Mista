@@ -31,8 +31,8 @@
     <section class="options-container">
         <div class="options-box">
             <div class="options">
-                <button>Postagens</button>
-                <button>Perguntas</button>
+                <button><a href= "../adm/gerenciarpostagens.php">Postagens</a></button>
+                <button><a href= "../adm/perguntasadm.php">Perguntas</a></button>
                 <button>Usuários</button>
                 <button>Sair</button>
             </div>

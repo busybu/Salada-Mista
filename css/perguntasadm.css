@@ -71,7 +71,6 @@ header{
     cursor: pointer;
 }
 
-
 .options button:hover{
     background-color: #7a3d3d;
 }
@@ -89,4 +88,9 @@ header{
 
 .img-box img{
     width: 200px;
+}
+.card-divisor{
+    padding: 1rem;
+    max-width: auto;
+    margin: auto;
 }
