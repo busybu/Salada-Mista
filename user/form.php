@@ -10,8 +10,10 @@ if (isset($_POST["Login"]))
 
     $confirm = verifyLogin();
     if ($confirm)
-    {    
-        echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
+    {
+        if ($_SESSION['adm'] = 1)
+            echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
+        echo "<meta http-equiv='refresh' content='0.00001; URL=../user/index.php'/>";
     }
     else
     {
