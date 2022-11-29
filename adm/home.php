@@ -2,8 +2,8 @@
     // COLOCAR ISSO EM TODAS AS PÁGINAS DE ADM PARA VERIFICAR O LOGIN
     session_start();
     require_once("../adm/functions.php");
-    if (!verifyLogin()){
-        echo "<script> alert('Sessão não iniciada.') </script>";
+    if (!verifyLogin() || $_SESSION['adm'] != 1){
+        echo "<script> alert('Não autorizado.') </script>";
         redirectLogin();
     }
 ?>

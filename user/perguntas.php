@@ -63,24 +63,59 @@
             </div>
           </div>
         </div>
-
-        <div class="card-divisor">
-          <div class="card">
-            <div class="card-header">
-              Quote
-            </div>
-            <div class="card-body">
-              <blockquote class="blockquote mb-0">
-                <p>A well-known quote, contained in a blockquote element.</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-
-      </div>
+<div class="container-main" style="display: flex; flex-direction: column; margin-left:75px;">
+  <div class="main"style="display: flex; flex-direction: column;">
+  <div class="background-img">
+    <div class = "text-background" style = "margin:auto;">
+      <h1>Blog De Perguntas</h1>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  
+  <div class = "card-container">
+  <form action="form.php" method="POST">
+    <div class="card-divisor">
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="quest"></textarea>
+        <label for="floatingTextarea2">Insira aqui sua pergunta</label>
+      </div>
+      <button class="btn btn-primary" type="submit" name="confirmQuest">Button</button>
+    </div>
+  </form>
+
+  <?php
+    require_once('../adm/functions.php');
+    $conn = returnConnection();
+
+    $result = $conn -> query('SELECT texto_pergunta, resposta FROM perguntas ORDER BY id DESC');
+    $quant = 1;
+    while($row = $result->fetch_assoc())
+    {
+      $row["texto_pergunta"];
+      echo '<div class ="card-divisor">';
+        echo '<div class="card">';
+          echo '<div class="card-header">';
+            echo 'Pergunta ', $quant;
+          echo '</div>';
+            echo '<div class="card-body">';
+              echo '<blockquote class="blockquote mb-0">';
+                echo '<p>';
+                echo $row['texto_pergunta'];
+                echo '</p>';
+
+                echo '<footer class="blockquote-footer">';
+                echo $row['resposta'];
+                echo '</footer>';
+              echo '</blockquote>';
+            echo '</div>';
+          echo '</div>';
+        echo '</div>';
+      $quant += 1;
+    }
+  ?>
+
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
