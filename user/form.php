@@ -10,8 +10,10 @@ if (isset($_POST["Login"]))
 
     $confirm = verifyLogin();
     if ($confirm)
-    {    
-        echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
+    {
+        if ($_SESSION['adm'] = 1)
+            echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
+        echo "<meta http-equiv='refresh' content='0.00001; URL=../user/index.php'/>";
     }
     else
     {
@@ -41,5 +43,16 @@ if (isset($_POST['confirmQuest']))
 
     echo "<script> alert('Pergunta registrada!')</script>";
     echo "<meta http-equiv='refresh' content='0.00001; URL=../user/perguntas.php'/>";
+}
+
+if (isset($_POST['alteraQuest']))
+{
+    require_once("../adm/functions.php");
+    $conn = returnConnection();
+    $text = "UPDATE perguntas SET texto_pergunta ='" . $_POST['post_text'] . "', resposta ='" . $_POST['post_resp'] . "' WHERE id =" . $_POST['alteraQuest'];
+
+    $conn -> query($text);
+    echo "<script> alert('Resposta registrada!')</script>";
+    echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/perguntasadm.php'/>";
 }
 ?>

@@ -33,50 +33,36 @@ if (!verifyLogin()) {
         </div>
     </header>
     <section class="perguntas-revisar">
-        <form>
-            <div class="card-divisor">
-                <div class="card">
-                    <div class="card-header">
-                        Quote
-                    </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>A well-known quote, contained in a blockquote element.</p>
-                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                        </blockquote>
-                    </div>
-                    <button type="button" class="btn btn-outline-danger">Excluir</button>
-                    <button type="button" class="btn btn-outline-success">Responder</button>
-                </div>
-            </div>
-            <div class="card-divisor">
-                <div class="card">
-                    <div class="card-header">
-                        Quote
-                    </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>A well-known quote, contained in a blockquote element.</p>
-                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                        </blockquote>
-                    </div>
-                    <button type="button" class="btn btn-outline-danger">Excluir</button>
-                    <button type="button" class="btn btn-outline-success">Responder</button>
-                </div>
-            </div>
-            <div class="card-divisor">
-                <div class="card">
-                    <div class="card-header">
-                        Quote
-                    </div>
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <p>A well-known quote, contained in a blockquote element.</p>
-                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                        </blockquote>
-                    </div>
-                    <button type="button" class="btn btn-outline-danger">Excluir<button>
-                    <button type="button" class="btn btn-outline-success">Responder</button>
+        <form action='gerenciarperguntas.php' method='GET'>
+            <?php
+                $conn = returnConnection();
+                $result = $conn -> query('SELECT id, texto_pergunta, resposta FROM perguntas ORDER BY id DESC');
+                while($row = $result->fetch_assoc())
+                {
+                    echo '<div class="card-divisor">';
+                        echo '<div class="card">';
+                            echo '<div class="card-header">';
+                                echo 'Pergunta ID: ', $row['id'];
+                            echo '</div>';
+                        echo '<div class="card-body">';
+                        echo '<blockquote class="blockquote mb-0">';
+                            echo '<p>';
+                            echo $row['texto_pergunta'];
+                            echo '</p>';
+                        echo '<footer class="blockquote-footer">';
+                        echo $row['resposta'];
+                        echo '</footer>';
+                    echo '</blockquote>';
+                    echo '<button type="submit" class="btn btn-outline-danger" name="excl" value=', $row["id"],'>Excluir</button>';
+                    echo '<button type="submit" class="btn btn-outline-success" name="resp" value=',$row['id'];
+                        echo '>Responder</button>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+            ?>
+
+                    
                 </div>
             </div>
         </form>

@@ -1,0 +1,10 @@
+.container-main .main .background-img{
+    height: 10rem;
+}
+.container-main .main .cards-conheca{
+    margin: auto;   
+}
+.container-main .main .cards-conheca .card-divisao{
+   padding: 1rem;
+   display: flex;
+}

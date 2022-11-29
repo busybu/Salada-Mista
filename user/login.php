@@ -4,7 +4,7 @@
   <title>Login V1</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="icon" href="../img/icon_pagina.png">
   <link rel="icon" type="image/png" href="images/icons/favicon.ico">
 
   <link rel="stylesheet" type="text/css" href="../css/util.css">

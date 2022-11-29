@@ -28,7 +28,7 @@
 .carousel-inner-card {
   padding: 1rem;
   justify-content: flex-start;
-  background: rgb(185, 248, 227);
+  background: #EBEBEB;
   display: flex;
 }
 .carousel-img{
@@ -84,9 +84,10 @@
   padding: 2rem;
 }
 .container-main .main .error img{
-  height: 58rem;
   margin: auto;
-  margin-left: 90px;
+  margin-left: 8rem;
+  max-width: 70rem;
+  max-height: auto;
 }
 
 .div100{
@@ -120,7 +121,7 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background: #420321;
+  background:#191812;
   z-index: 100;
   transition: all 0.5s ease;
 }
@@ -172,7 +173,7 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li:hover{
-  background: #F0A7AF;
+  background: #BFBFBF;
 }
 .sidebar .nav-links li .iocn-link{
   display: flex;
@@ -205,9 +206,12 @@
   text-decoration: none;
 }
 .sidebar .nav-links .sub-menu li input{
-  display: flex;
-  align-items: center;
-  text-decoration: none;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  padding: 3px;
+  border: none;
+  color: beige;
 }
 .sidebar.close .nav-links li .sub-menu li {
   text-decoration: none;
@@ -226,7 +230,7 @@
 .sidebar .nav-links li .sub-menu{
   padding: 6px 6px 14px 80px;
   margin-top: -10px;
-  background: #31091d;
+  background: #1d1d16;
   display: none;
 }
 .sidebar .nav-links li.showMenu .sub-menu{
@@ -287,7 +291,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #420321;
+  background: #191812;
   padding: 12px 0;
   transition: all 0.5s ease;
 }
@@ -307,7 +311,7 @@
   object-fit: cover;
   border-radius: 16px;
   margin: 0 14px 0 12px;
-  background: #420321;
+  background: #191812;
   transition: all 0.5s ease;
 }
 .sidebar.close .profile-details img{
@@ -506,7 +510,7 @@
 .divs-card{
   height: 100%;
   width: 100%;
-  background-color: #F0A7AF;
+  background-color: #AADFE9;
 }
 .title-content-preview{
   height: 10rem;
