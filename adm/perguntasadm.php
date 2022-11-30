@@ -53,7 +53,11 @@ if (!verifyLogin()) {
                         echo $row['resposta'];
                         echo '</footer>';
                     echo '</blockquote>';
-                    echo '<button type="submit" class="btn btn-outline-danger" name="excl" value=', $row["id"],'>Excluir</button>';
+                    $id = $row['id'];
+                    $link = 'href="gerenciarperguntas.php?excl=' . $id . '"';
+
+                    $confirm = ' onclick="'. "return confirm('Tem certeza que deseja deletar este registro?')" . '"';
+                    echo '<a ', $link, $confirm, ' class="btn btn-outline-danger" name="excl" value=', $row["id"],'>Excluir</a>';
                     echo '<button type="submit" class="btn btn-outline-success" name="resp" value=',$row['id'];
                         echo '>Responder</button>';
                     echo '</div>';
