@@ -63,7 +63,7 @@ if (isset($_POST['cadastro']))
     require_once("../adm/functions.php");
     $conn = returnConnection();
     $email = $_POST['email'];
-    $senha = $_POST['pass'];
+    $senha = MD5($_POST['pass']);
     $adm = $_POST['adm'];
 
     $text = "INSERT INTO usuarios (email, senha, adm) VALUES ('$email', '$senha', $adm)";

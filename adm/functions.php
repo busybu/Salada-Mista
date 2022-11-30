@@ -14,7 +14,7 @@ function verifyLogin(){
     
     $mysqli = returnConnection();
     $email = $_SESSION['loginUser'];
-    $pass = $_SESSION['passUser'];
+    $pass = MD5($_SESSION['passUser']);
     $result  = $mysqli -> query("SELECT * FROM usuarios WHERE email = '$email' and senha = '$pass'");
     if ($result->num_rows > 0)
     {
