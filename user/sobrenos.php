@@ -35,7 +35,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Gabrielle Fialkoski</h5>
-                                    <p class="card-text">Fez a porra do projeto inteiro nesse caralho (mentira so o front)</p>
+                                    <p class="card-text">Aluna do instituto</p>
                                     <p class="card-text"><small class="text-muted">Aluna do Instituto Federal do Paraná</small></p>
                                 </div>
                             </div>
@@ -47,13 +47,13 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE1Rm0AGcCSUw/profile-displayphoto-shrink_800_800/0/1628694636268?e=1675296000&v=beta&t=Z3DA9lDTfI4iaM1wrYjgKit7nR463BlDUw9x4_nxDX0" class="img-fluid rounded-start" alt="...">
+                                <img src="http://s2.glbimg.com/4Ek8CnZSuYyyvaNQEPPiX_d-faA=/e.glbimg.com/og/ed/f/original/2017/11/24/gali1.jpg" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Falas</h5>
-                                    <p class="card-text">Deus do beck 🙌end ta </p>
-                                    <p class="card-text"><small class="text-muted">Vagabundao pae</small></p>
+                                    <h5 class="card-title">Fulano</h5>
+                                    <p class="card-text">Gatinho Lorem Ipsum de inserção de dados que ajudou no projeto</p>
+                                    <p class="card-text"><small class="text-muted">Empresa Cats Felinos</small></p>
                                 </div>
                             </div>
                         </div>
@@ -64,13 +64,13 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEadvL3GvknmQ/profile-displayphoto-shrink_800_800/0/1616526046112?e=1675296000&v=beta&t=AZNqdW1fgCbvfItTpzdzwHNKxk5Qz370bN1eCdAi3sk" class="img-fluid rounded-start" alt="...">
+                                <img src="https://www.zooplus.pt/magazine/wp-content/uploads/2021/03/kitten-sitzt-boden-768x512-1.jpeg" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Fortunas</h5>
-                                    <p class="card-text">Deixou tudo lindão pae 👌😘</p>
-                                    <p class="card-text"><small class="text-muted">Trabalha vendendo design de pod</small></p>
+                                    <h5 class="card-title">Gatinho Programador</h5>
+                                    <p class="card-text">Aprendeu a programar com aproximadamente 5 meses e se especializou em WebDesing</p>
+                                    <p class="card-text"><small class="text-muted">WebDesigner em Catz</small></p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
+                                <img src="https://t2.ea.ltmcdn.com/pt/posts/2/2/6/socializar_um_gato_filhote_21622_orig.jpg" class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN5QiGmuro-2rO4PRhi-7_pojOzu50GCdfnw&usqp=CAU" class="img-fluid rounded-start" alt="...">
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsi0sajKGwkGXiXahqpR4FwUkTdwamBzGpXQ&usqp=CAU" class="img-fluid rounded-start" alt="...">
                             </div>
                         </div>
                     </div>

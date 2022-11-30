@@ -27,7 +27,7 @@ function verifyLogin(){
 function session(){
     if (isset($_SESSION['loginUser']) && isset($_SESSION['passUser']) && $_SESSION['loginUser'] != "" && $_SESSION['passUser'] != "")
         return true;
-    $_SESSION['loginUser'] = "";
+    $_SESSION['loginUser'] = "user";
     $_SESSION['passUser'] = "";
     $_SESSION['adm'] = 0;
     return false;

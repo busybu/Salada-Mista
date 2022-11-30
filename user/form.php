@@ -11,9 +11,11 @@ if (isset($_POST["Login"]))
     $confirm = verifyLogin();
     if ($confirm)
     {
-        if ($_SESSION['adm'] = 1)
+        if ($_SESSION['adm'] == 1)
             echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
-        echo "<meta http-equiv='refresh' content='0.00001; URL=../user/index.php'/>";
+        else
+            echo "<meta http-equiv='refresh' content='0.00001; URL=../user/index.php'/>";
+        
     }
     else
     {
@@ -33,6 +35,7 @@ if (isset($_POST['confirmQuest']))
         $conn = returnConnection();
         $question = $_POST['quest'];
         $conn -> query("INSERT INTO perguntas (texto_pergunta) VALUES ('$question')");
+        echo "<script> alert('Pergunta registrada!')</script>";
     }
 
     else
@@ -41,7 +44,6 @@ if (isset($_POST['confirmQuest']))
         echo "<meta http-equiv='refresh' content='0.00001; URL=../user/login.php'/>";
     }
 
-    echo "<script> alert('Pergunta registrada!')</script>";
     echo "<meta http-equiv='refresh' content='0.00001; URL=../user/perguntas.php'/>";
 }
 

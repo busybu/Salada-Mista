@@ -111,7 +111,8 @@
             </button>
           </div>
           <div class="text-center p-t-136">
-            <p class="txt2" href="#">
+            <a href="">Cadastre-se</a>
+            <p class="txt2" href="">
             </p>
           </div>
         </form>
