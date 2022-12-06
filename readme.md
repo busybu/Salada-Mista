@@ -8,14 +8,18 @@ Navegar por todas as páginas de função usuário,
 Cadastrar Usuário,
 Enviar perguntas.
 
-Em nível de administrador pode:
+Em nível de administrador é possível:
 Gerenciar usuários cadastrados,
 Modificar as páginas do site, inserir informações no site,
 Gerenciar perguntas, responder perguntas
 
 As tecnologias utilizadas foram: 
-Plataforma Visual Studio Code, PhpMYAdmin, XAMPP, Bootstrap
-Linguagens de programação HTML, CSS, PHP
+Plataforma Visual Studio Code 1.73.1,
+PhpMYAdmin 5.2.0,
+XAMPP 7.4.33, 
+Bootstrap v5.2
+Linguagens de programação HTML5.2, CSS 4.15, PHP 7.4.33
+SGBD utilizado é o MYSQL
 
 Para funcionamento:
 É necessário possuir o XAMPP na versão 7.4.33 / PHP 7.4.33, encontrada no site https://www.apachefriends.org/pt_br/download.html para acessar o administrador e outras funções
