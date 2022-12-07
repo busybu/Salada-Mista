@@ -111,7 +111,7 @@
             </button>
           </div>
           <div class="text-center p-t-136">
-            <a href="">Cadastre-se</a>
+            <a href="../user/cadastro_usuario.php">Cadastre-se</a>
             <p class="txt2" href="">
             </p>
           </div>

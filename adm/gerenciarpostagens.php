@@ -53,7 +53,7 @@
     </nav>
     <section class="main">
         <div class="main-box">
-            <span>Titulo da postagem (puxa ai leo)</span>
+            <span>Titulo da postagem</span>
             <div class="content">
                 <div class="input-box">
                     <label for="img-principal">Imagem principal</label>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="input-box">
                     <label for="titulo">Título</label>
-                    <input type="text" name="titulo" id="" placeholder="puxa o titulo ai leo">
+                    <input type="text" name="titulo" id="" placeholder="None">
                 </div>
                 <div class="input-box">
                     <label for="texto1">Texto 1</label>
