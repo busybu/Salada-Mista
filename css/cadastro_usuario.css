@@ -9,9 +9,13 @@ form{
     max-width: max-content;
     margin: auto;
 }
+
 fieldset{
     background-color: rgb(172, 156, 156);
     max-width: 35rem;
+    border-radius: 15px;
+    padding: 13px 5px 5px 5px;
+
 }
 
 input{
@@ -31,4 +35,15 @@ input{
 .cadastro-buttons input{
     padding: 7px;
     background-color: rgb(186, 196, 190);
+}
+
+.table-cadastro{
+    width: 100%;
+}
+.table-cadastro input{
+    width: 100%;
+}
+
+.fieldset-nome{
+    margin-bottom: 10px;
 }

@@ -31,7 +31,7 @@
     <section class="options-container">
         <div class="options-box">
             <div class="options">
-                <a href= "../adm/gerenciarpostagens.php">Postagens</a>
+                <a href= "../adm/gerenciarpostagens.php?titulo=Proteção">Postagens</a>
                 <a href= "../adm/perguntasadm.php">Perguntas</a>
                 <a href= "../adm/cadastros.php">Usuários</a>
                 <a href= "../user/index.php">Sair</a>

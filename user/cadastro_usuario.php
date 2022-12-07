@@ -13,34 +13,34 @@
     <div class="cadastro-title">
         <h1>Insira seus dados</h1>
     </div>
-    <form action="Cadastro_Usuario" method="POST">
-        <fieldset>
-            <legend>Dados Pessoais</legend>
+    <form action="form.php" method="POST">
+        <fieldset class="fieldset-nome">
+            Dados Pessoais
             <table cellspacing="10">
                 <tr>
                     <td>
                         <label for="nome">Nome:</label>
                     </td>
-                    <td align="left">
+                    <td>
                         <input type="text" name="nome" id="">
                     </td>
                     <td>
                         <label for="sobrenome">Sobrenome:</label>
                     </td>
-                    <td align="left">
+                    <td>
                         <input type="text" name="sobrenome" id="">
                     </td>
                 </tr>
             </table>
         </fieldset>
         <fieldset>
-            <legend>Login</legend>
-            <table cellspacing="10">
+            Login
+            <table cellspacing="10" class="table-cadastro">
                 <tr>
                     <td>
                         <label for="email">E-mail:</label>
                     </td>
-                    <td align="left">
+                    <td>
                         <input type="text" name="email" id="">
                     </td>
                 </tr>
@@ -48,7 +48,7 @@
                     <td>
                         <label for="login">Login de usuário: </label>
                     </td>
-                    <td align="left">
+                    <td>
                         <input type="text" name="login">
                     </td>
                 </tr>
@@ -56,7 +56,7 @@
                     <td>
                         <label for="pass">Senha: </label>
                     </td>
-                    <td align="left">
+                    <td>
                         <input type="password" name="pass">
                     </td>
                 </tr>
@@ -64,7 +64,7 @@
                     <td>
                         <label for="passconfirm">Confirme a senha: </label>
                     </td>
-                    <td align="left">
+                    <td>
                         <input type="password" name="passconfirm">
                     </td>
                 </tr>
@@ -72,7 +72,7 @@
         </fieldset>
         <br />
         <div class="cadastro-buttons">
-            <input type="submit">
+            <input type="submit" name="register">
             <input type="reset" value="Limpar">
         </div>
         </table>

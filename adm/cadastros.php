@@ -6,6 +6,8 @@
         echo "<script> alert('Não autorizado.') </script>";
         redirectLogin();
     }
+    $conn = returnConnection();
+    $id = $_SESSION['id'];
 ?>
 
 <!DOCTYPE html>
@@ -40,6 +42,56 @@
 
         <button type="submit" class="btn btn-primary" name="cadastro">Cadastrar</button>
         </form>
+    </div>
+
+    <div class="container col-7 mt-5">
+        <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Email</th>
+                <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                    $text = "SELECT id, nome, sobrenome, email, adm FROM usuarios where id != $id";
+                    $result = $conn -> query($text);
+                    while ($row = $result->fetch_assoc())
+                    {
+                        $id = $row['id'];
+                        echo '<form action="../user/form.php" method="POST">';
+                            echo "<tr>";
+                                echo "<td>";
+                                echo $id;
+                                echo "</td>";
+
+                                echo "<td>";
+                                echo $row['nome'];
+                                echo "</td>";
+
+                                echo "<td>";
+                                echo $row['sobrenome'];
+                                echo "</td>";
+
+                                echo "<td>";
+                                echo $row['email'];
+                                echo "</td>";
+
+                                echo "<td>";
+                                $link = 'href="gerenciaruser.php?excl=' . $id . '"';
+                                $confirm = ' onclick="'. "return confirm('Tem certeza que deseja deletar este registro?')" . '"';
+                                echo '<a ', $link, $confirm, ' class="btn btn-outline-danger" name="excl" value=', $row["id"],'>Excluir</a>';
+                                echo "<td>";
+                            echo "</tr>";
+                        echo "</form>";
+                    }
+                ?>
+
+            </tbody>
+        </table>
     </div>
 </body>
 </html>

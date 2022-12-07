@@ -9,6 +9,7 @@ if (isset($_POST["Login"]))
 
 
     $confirm = verifyLogin();
+
     if ($confirm)
     {
         if ($_SESSION['adm'] == 1)
@@ -65,10 +66,47 @@ if (isset($_POST['cadastro']))
     $email = $_POST['email'];
     $senha = MD5($_POST['pass']);
     $adm = $_POST['adm'];
+    $nome = $_POST['nome'];
+    $sobrenome = $_POST['sobrenome'];
 
-    $text = "INSERT INTO usuarios (email, senha, adm) VALUES ('$email', '$senha', $adm)";
+    $text = "INSERT INTO usuarios (nome, sobrenome, email, senha, adm) VALUES ('$nome', '$sobrenome', '$email', '$senha', $adm)";
     $conn -> query($text);
     echo "<script> alert('Usuario registrado!')</script>";
     echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
 }
+
+if (isset($_POST['register']))
+{
+    require_once("../adm/functions.php");
+    $conn = returnConnection();
+    $email = $_POST['email'];
+    $senha = MD5($_POST['pass']);
+    $adm = 0; // sempre que um usuário se cadastrar por aqui ele é normal
+
+    $text = "INSERT INTO usuarios (nome, sobrenome, email, senha, adm) VALUES ('$nome', '$sobrenome', '$email', '$senha', $adm)";
+    $conn -> query($text);
+    echo "<script> alert('Usuario registrado!')</script>";
+    echo "<meta http-equiv='refresh' content='0.00001; URL=../user/index.php'/>";
+
+}
+
+
+if (isset($_POST['alteraPost']))
+{
+    require_once("../adm/functions.php");
+    $conn = returnConnection();
+
+    $title = $_POST['alteraPost'];
+    $text = $_POST['text'];
+    $text1 = $_POST['text1'];
+    $imgbackground = $_POST['imgbackground'];
+    $img = $_POST['img'];
+
+    $text = "UPDATE posts SET text ='$text', text1 = '$text1', imgbackground='$imgbackground', img = '$img' WHERE title = '$title'";
+
+    $conn -> query($text);
+    echo "<script> alert('Postagem Alterada!')</script>";
+    echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/gerenciarpostagens.php?titulo=Proteção'/>";
+}
+
 ?>

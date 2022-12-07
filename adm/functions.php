@@ -2,7 +2,7 @@
 function returnConnection(){
     $conexao = "localhost";
     $username = "root";
-    $password = "";
+    $password = "123";
     $banco = "saladamista";
     
     return new mysqli($conexao, $username, $password, $banco);
@@ -18,7 +18,9 @@ function verifyLogin(){
     $result  = $mysqli -> query("SELECT * FROM usuarios WHERE email = '$email' and senha = '$pass'");
     if ($result->num_rows > 0)
     {
-        $_SESSION['adm'] = $result->fetch_assoc()['adm'];
+        $row = $result->fetch_assoc();
+        $_SESSION['id'] = $row['id'];
+        $_SESSION['adm'] = $row['adm'];
         return true;
     }
     return false;
