@@ -70,9 +70,15 @@ if (isset($_POST['cadastro']))
     $sobrenome = $_POST['sobrenome'];
 
     $text = "INSERT INTO usuarios (nome, sobrenome, email, senha, adm) VALUES ('$nome', '$sobrenome', '$email', '$senha', $adm)";
-    $conn -> query($text);
-    echo "<script> alert('Usuario registrado!')</script>";
-    echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
+    if ($conn -> query($text)){ //verificar erro de conexao com condicao 
+        echo "<script> alert('Usuario registrado!')</script>";
+        echo "<meta http-equiv='refresh' content='0.00001; URL=../adm/home.php'/>";
+    }
+    else{
+        echo "<script> alert('Usuario não cadastrado!')</script>";
+        //$_SERVER['HTTP_REFERER']
+        // pesquisar como voltar com a pagina com formulario preenchido (back-1)
+    }
 }
 
 if (isset($_POST['register']))
